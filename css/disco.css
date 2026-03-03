@@ -1,0 +1,77 @@
+* { margin: 0; padding: 0; }
+li { list-style: none; }
+a { text-decoration: none; }
+
+@font-face{
+    font-family:'NewYork'; 
+    src: local('NewYork'),
+            url('NewYork.eot');
+
+    font-family:'나눔스퀘어'; 
+    src: local('나눔스퀘어'),
+          url('나눔스퀘어.eot');       
+}
+
+.new { font-family: 'NewYork', sans-serif; }
+.nanum { font-family: '나눔스퀘어', serif; }
+
+#wrap { width: 1920px; height: 2510px; background-color: white; overflow: hidden; }
+
+/* 헤더 부분 */
+#haeder { width: 1920px; height: 90px; background-color: white; }
+
+.logo { width: 275px; height: 90px; float: left; }
+.logo a img { margin-top: 30px; margin-left: 50px; }
+
+.note { width: 1230px; height: 90px; float: left; }
+.note  { width: 1230px; height: 45px; border-bottom: solid 0.5px #e0e0e0; }
+.note1 ul { }
+.note1 ul li { float: left; }
+.notice1 { padding: 8px; }
+.notice2 { padding: 10px 10px 10px 5px; font-size: 10pt; font-weight: 200; letter-spacing: -0.5px; }
+
+.note2 { width: 1230px; height: 45px; float: left; }
+.icon { float: left; padding-right: 40px; }
+.note2 ul li { float: left; }
+.note2 a img { margin-top: 8px; float: left; }
+.note2 a span { line-height: 45px; color: #55AA55; font-size: 11pt; font-weight: 500; padding-left: 2px; }
+
+.lan { width: 275px; height: 90px; float: left; }
+.lan ul { margin-top: 25px; }
+.lan ul li { float: left; padding: 4px; }
+.lan ul li a { display: block;  background-color: white;  color: #808080; padding: 5px;  width: 50px; height: 20px; text-align: center; font-size: 10pt; font-weight: 500; }
+.lan ul li:first-child a { background-color: #329632; color: #ffffff; }
+.lan ul li a:hover { background-color: #329632; color: #ffffff; }
+
+.nav { width: 140px; height: 90px; float: left; position: relative; z-index: 10; }
+.bar { width: 60px; height: 60px; margin-top: 30px; margin-left: 40px; position: relative; }
+.bar img { display: block; padding: 3px; }
+.bar1 {  position: absolute; left: 15px; top:5px; }
+.bar2 { position: absolute; left: 10px; top: 15px; }
+.bar3 {  position: absolute; left: 15px; top: 25px; }
+.plus { transform: translateX(-10px);}
+.submenu { width: 500px; height: 1010px; position: absolute; top: 90px; left: 140px; background-color: #ffffff; }
+.submenu ul { }
+.submenu ul li { width: 100%; }
+.submenu ul li a { display: block; color: #55AA55; font-size: 30pt; padding-left: 100px; padding-top: 60px; padding-bottom: 10px; }
+.submenu ul li a:hover { color: #329632; background-color: #FFDC50; }
+
+#bar { width: 1920px; height: 120px; background-image: url('/SEVENTEEN/img/bar_bg01.png');}
+.txt { font-size: 30pt; color: #ffffff; margin-left: 210px; line-height: 120px; }
+
+#section  { width: 1920px; height: 987px; }
+.sec1 { width: 635px; height: 650px; margin-top: 150px; margin-left: 260px; float: left; }
+.sec2 { width: 712px; height: 650px; margin-top: 150px; margin-left: 50px; float: left; }
+.sec2 > p { margin-top: 50px; font-size: 11pt; line-height: 30px; }
+
+#content { width: 1920px; height: 1180px; position: relative; }
+.number { width: 1920px; height: 90px; text-align: center; }
+.number > img { margin-top: 50px; }
+.album { width: 1640px; height: 975px; margin-top: 50px; margin-left: 130px; position: relative; }
+.albumimg { position: absolute; }
+
+/* 풋터 부분 */
+#footer { width: 1920px; height: 130px; background-color: #FFDC50; }
+.footerlogo { text-align: center; padding-top: 25px; }
+.copy { text-align: center; color: #55AA55; }
+.copy h5 { font-weight: 500; }
