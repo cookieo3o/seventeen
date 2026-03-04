@@ -13,7 +13,7 @@ a { text-decoration: none; }
 #wrap { width: 1920px; height: 1220px; overflow: hidden; }
 
 /* 헤더 부분 */
-#haeder { width: 1920px; height: 90px; background-color: white; }
+#haeder { width: 1920px; height: 90px; background-color: white; position: fiexed;}
 
 .logo { width: 275px; height: 90px; float: left; }
 .logo a img { margin-top: 30px; margin-left: 50px; }
@@ -51,7 +51,7 @@ a { text-decoration: none; }
 .submenu ul li a { display: block; color: #55AA55; font-size: 30pt; padding-left: 100px; padding-top: 60px; padding-bottom: 10px; }
 .submenu ul li a:hover { color: #329632; background-color: #FFDC50; }
 
-#section { width: 1920px; height: 1009px; }
+#section { width: 1920px; height: 1009px; padding-top: 90px;}
 .mainimg { width: 1920px; height: 1009px; }
 
 /* 풋터 부분 */
