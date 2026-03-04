@@ -56,7 +56,7 @@ a { text-decoration: none; }
 .submenu ul li a { display: block; color: #55AA55; font-size: 30pt; padding-left: 100px; padding-top: 60px; padding-bottom: 10px; }
 .submenu ul li a:hover { color: #329632; background-color: #FFDC50; }
 
-#bar { width: 1920px; height: 120px; background-image: url('../img/bar_bg01.png'); padding-top: 90px; }
+#bar { width: 1920px; height: 120px; background-image: url('../img/bar_bg01.png'); margin-top: 90px; }
 .txt { font-size: 30pt; color: #ffffff; margin-left: 210px; line-height: 120px; }
 
 #section  { width: 1920px; height: 987px; }
