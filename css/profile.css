@@ -18,7 +18,7 @@ a { text-decoration: none; }
 #wrap { width: 1920px; height: 3500px; overflow: hidden; }
 
 /* 헤더 부분 */
-#haeder { width: 1920px; height: 90px; background-color: white; }
+#haeder { width: 1920px; height: 90px; background-color: white; position: fiexed; }
 
 .logo { width: 275px; height: 90px; float: left; }
 .logo a img { margin-top: 30px; margin-left: 50px; }
@@ -56,7 +56,7 @@ a { text-decoration: none; }
 .submenu ul li a { display: block; color: #55AA55; font-size: 30pt; padding-left: 100px; padding-top: 60px; padding-bottom: 10px; }
 .submenu ul li a:hover { color: #329632; background-color: #FFDC50; }
 
-#bar { width: 1920px; height: 120px; background-image: url('../img/bar_bg02.png');}
+#bar { width: 1920px; height: 120px; background-image: url('../img/bar_bg02.png'); padding-top: 90px; }
 .txt { font-size: 30pt; color: #ffffff; margin-left: 270px; line-height: 120px; }
 
 #section { width: 1920px; height: 3010px; }
