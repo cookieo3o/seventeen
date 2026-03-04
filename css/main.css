@@ -13,7 +13,7 @@ a { text-decoration: none; }
 #wrap { width: 1920px; height: 1220px; overflow: hidden; }
 
 /* 헤더 부분 */
-#haeder { width: 1920px; height: 90px; background-color: white; position: fiexed;}
+#haeder { width: 1920px; height: 90px; background-color: white; position: fixed;}
 
 .logo { width: 275px; height: 90px; float: left; }
 .logo a img { margin-top: 30px; margin-left: 50px; }
