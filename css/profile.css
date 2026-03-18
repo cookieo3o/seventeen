@@ -15,17 +15,16 @@ a { text-decoration: none; }
 .new { font-family: 'NewYork', serif; }
 .nanum { font-family: '나눔스퀘어', sans-serif; }
 
-#wrap { width: 1920px; height: 3500px; overflow: hidden; }
+#wrap { width: 100%; overflow-x: hidden; }
 
 /* 헤더 부분 */
-#haeder { width: 1920px; height: 90px; background-color: white; position: fixed; z-index: 1000; }
+#haeder { width: 1920px; height: 90px; background-color: white; position: fixed; z-index: 500; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
 
 .logo { width: 275px; height: 90px; float: left; }
 .logo a img { margin-top: 30px; margin-left: 50px; }
 
 .note { width: 1230px; height: 90px; float: left; }
 .note  { width: 1230px; height: 45px; border-bottom: solid 0.5px #e0e0e0; }
-.note1 ul { }
 .note1 ul li { float: left; }
 .notice1 { padding: 8px; }
 .notice2 { padding: 10px 10px 10px 5px; font-size: 10pt; font-weight: 200; letter-spacing: -0.5px; }
@@ -51,15 +50,14 @@ a { text-decoration: none; }
 .bar3 {  position: absolute; left: 15px; top: 25px; }
 .plus { transform: translateX(-10px);}
 .submenu { width: 500px; height: 1010px; position: absolute; top: 90px; left: 140px; background-color: #ffffff; }
-.submenu ul { }
 .submenu ul li { width: 100%; }
 .submenu ul li a { display: block; color: #55AA55; font-size: 30pt; padding-left: 100px; padding-top: 60px; padding-bottom: 10px; }
 .submenu ul li a:hover { color: #329632; background-color: #FFDC50; }
 
-#bar { width: 1920px; height: 120px; background-image: url('../img/bar_bg02.png'); margin-top: 90px; }
+#bar { width: 100%; height: 120px; margin-top: 90px; background: url(../img/bar_bg01.png) no-repeat; }
 .txt { font-size: 30pt; color: #ffffff; margin-left: 270px; line-height: 120px; }
 
-#section { width: 1920px; height: 3010px; }
+#section { width: 1920px; height: 3010px; padding-top: 90px; }
 
 #left { width: 814px; height: 2890px; float: left; margin-left: 250px; margin-top: 60px; }
 .lefttext { width: 273px; height: 200px; margin-top: 60px; }
@@ -69,8 +67,6 @@ a { text-decoration: none; }
 .member { margin-top: 10px; width: 814px; height: 400px; }
 .member .name { padding-top: 15px; }
 .member > li { margin-top: 30px; float: left; width: 258px; height: 360px; text-align: center; font-weight: bolder; font-size: 13pt; }
-.member > li > a { }
-.member > li > a > span { }
 .member > li > a > span > img:hover { box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; }
 .member > li:nth-child(2)  {padding-left: 20px; padding-right: 20px; }
 
